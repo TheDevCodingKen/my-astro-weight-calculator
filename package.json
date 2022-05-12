@@ -1,5 +1,8 @@
 {
-    "name": "project-js-astro-weight",
+    "author": "TheDevCodingKen",
+    "description": "An astro weight calculator to calculate the weight of various instruments on different planets in our solar system",
+    "name": "my-astro-weight-calculator",
+    "keywords": ["weighing tool","astro weight calculator","weigh instruments","planets"],
     "version": "0.1.0",
     "scripts": {
         "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
