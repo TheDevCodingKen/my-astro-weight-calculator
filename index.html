@@ -3,34 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
-  <div>
-  <input id="user-weight" type="text" placeholder="Weight (lbs)" />
-  </div>
-  <div>
-    <label for="planets">Choose a Planet:</label>
-      <select name="planets" id="planets" />
+  <body>
+    <div class="calculator header">
+      <h1 class="title">Astro Weight Calculator</h1>
+    </div>
+    <div class="calculator main content">
+      <h2 class="user-input">
+        <label for="user-weight">How much?</label>
+        <input id="user-weight" type="text" placeholder="Weight (lbs)" />
+        <label for="planets">Choose a Planet:</label>
+        <select name="planets" id="planets">
         <option value="">Please choose an option</option>
-        <option value="Mercury">Mercury</option>
-        <option value="Venus">Venus</option>
-        <option value="Earth">Earth</option>
-        <option value="Mars">Mars</option>
-        <option value="Jupiter">Jupiter</option>
-        <option value="Saturn">Saturn</option>
-        <option value="Uranus">Uranus</option>
-        <option value="Neptune">Neptune</option>
-        <option value="Pluto">Pluto</option>
-        <option value="Sun">Sun</option>
-      </select>
-  </div>
-  <div>
-    <p id="output">output</p>
-    <button id="calculate-button">Calculate</button>
-  </div>
-  <div>
-
-  </div>
-
+        </select>
+        <p id="output"></p>
+        <button id="calculate-button">Calculate</button>
+      </h2>
+    </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
