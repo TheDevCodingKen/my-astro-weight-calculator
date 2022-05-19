@@ -34,9 +34,10 @@ function calculateWeight(weight, planetName) {
     return resultWeight;
 }
 function handleClickEvent(e) {
-    let userWeight = document.getElementById("user-weight").value;
+    let userWeight = parseFloat(document.getElementById("user-weight").value);
     let planetName = document.getElementById("planets").value;
     let result = calculateWeight(userWeight, planetName);
+    result = Math.round(result * 100) / 100;
     document.getElementById('output').innerHTML = `If you were on ${planetName}, you would weigh ${result}lbs!`;
 }
     document.getElementById('calculate-button').addEventListener('click', function(){handleClickEvent()});
