@@ -1,5 +1,8 @@
 html {
     background: url(https://i.imgur.com/iSUuGy1.gif) center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     animation: mymove 1s;
     background-color: slategrey;
@@ -41,4 +44,5 @@ body {
     right: 80%;
     position: relative;
     color: black;
+    background-color: aliceblue;
 }
