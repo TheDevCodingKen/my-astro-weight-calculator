@@ -45,4 +45,10 @@ body {
     position: relative;
     color: black;
     background-color: aliceblue;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+input[type='number']{
+    text-align: center;
 }
