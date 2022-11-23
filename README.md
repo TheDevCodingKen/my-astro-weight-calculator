@@ -13,4 +13,6 @@ Steps Taken:
 6. Build a webpage and apply techniques to interactively manage the DOM and events.
 7. Push my project into a GitHub repository.
 
+[Live Link](https://thedevcodingken.github.io/my-astro-weight-calculator/)
+
 Contents of this site are © Copyright 2022 TheDevCodingKen. All rights reserved.
