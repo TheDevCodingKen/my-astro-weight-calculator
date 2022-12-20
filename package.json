@@ -1,22 +1,31 @@
 {
-    "author": "TheDevCodingKen",
-    "description": "An astro weight calculator to calculate the weight of various instruments on different planets in our solar system",
-    "name": "my-astro-weight-calculator",
-    "keywords": ["weighing tool","astro weight calculator","weigh instruments","planets"],
-    "private": true,
-    "main": "main.js",
-    "homepage": "https://github.com/TheDevCodingKen/my-astro-weight-calculator",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
-        "test": "mocha test --exit"
-    },
-    "dependencies": {
-        "axios": "^0.27.2",
-        "chai": "^4.0.2",
-        "express": "^4.15.3",
-        "mocha": "^10.0.0",
-        "nightmare": "^2.8.0",
-        "node-static": "^0.7.9"
-    }
+  "author": "TheDevCodingKen",
+  "description": "An astro weight calculator to calculate the weight of various instruments on different planets in our solar system",
+  "name": "my-astro-weight-calculator",
+  "keywords": [
+    "weighing tool",
+    "astro weight calculator",
+    "weigh instruments",
+    "planets"
+  ],
+  "private": true,
+  "main": "main.js",
+  "homepage": "https://github.com/TheDevCodingKen/my-astro-weight-calculator#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDevCodingKen/my-astro-weight-calculator"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha test --exit"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "mocha": "^10.0.0",
+    "nightmare": "^2.8.0",
+    "node-static": "^0.7.9"
+  }
 }
